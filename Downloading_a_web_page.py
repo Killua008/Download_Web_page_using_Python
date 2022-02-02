@@ -22,7 +22,7 @@ def download(url, user_agent='wswp' ,num_retries=2):
 	print(html)		
 	return html
 
-download("http://www.meetup.com")  # Cant find a webpage which allows download will on some tryhackme Machine
+download("http://www.meetup.com")  
 
 # http://httpstat.us/500 can be use to test the 500 error
 
